@@ -1,0 +1,4 @@
+﻿  findprofile.cpp
+c:\users\joe\source\repos\facerecognition with qt\face recognition rebuilt\face recognition rebuilt\findprofile.cpp(345): warning C4715: 'CallVideoRecogniser': not all control paths return a value
+  Face Recognition Rebuilt.vcxproj -> C:\Users\Joe\Source\Repos\FaceRecognition with QT\Face Recognition Rebuilt\x64\Debug\Face Recognition Rebuilt.exe
+  Face Recognition Rebuilt.vcxproj -> C:\Users\Joe\Source\Repos\FaceRecognition with QT\Face Recognition Rebuilt\x64\Debug\Face Recognition Rebuilt.pdb (Full PDB)

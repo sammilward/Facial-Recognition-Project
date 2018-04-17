@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FindProfile</class>
+ <widget class="QDialog" name="FindProfile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>472</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lblCourseText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblGenderText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblCourse">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Course:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblStudentNoText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblName">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblStudentNo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Student No:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdFindProfile">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>250</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Find Profile</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblGender">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Gender:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNameText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDOB">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>DOB:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDOBtext">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>351</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>If face recognition does not work. Please enter users ID number: </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtIDNoFind">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>4</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdFindAnother">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>250</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Find Another Profile</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdUseFaceRec">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>421</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Use Face Recognition</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblImagDisplay">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>40</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
